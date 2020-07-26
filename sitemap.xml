@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.vincent-neo.com/</loc>
+  <lastmod>2020-07-23T11:22:42+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/index.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXAuthor.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXBounds.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXCompression.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXCompression/lossyTypes.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXCompression/lossyOptions.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXCopyright.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXElement.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXEmail.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXExtensions.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXExtensionsElement.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXLink.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXMetadata.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXParser.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXPerson.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXPoint.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXPointSegment.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXRoot.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXRoute.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXRoutePoint.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXTrack.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXTrackPoint.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXTrackSegment.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Classes/GPXWaypoint.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Enums.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Enums/GPXFix.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Structs.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Structs/GPXError.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Structs/GPXError/coordinates.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Structs/GPXError/parser.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vincent-neo.com/CoreGPX/Structs/GPXError/coordinates/reason.html</loc>
+  <lastmod>2020-06-25T15:34:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
