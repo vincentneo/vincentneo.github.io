@@ -7,6 +7,10 @@ body {
 	min-width: 365px;
 
 }	
+#sunlight {
+	border-radius: 10px;
+	background-image: linear-gradient(180deg, #2284b1, #037ef2, #001a9c);
+}
 .title {
 	text-align: center;
 	text-shadow: 0px 1px 0px white;
@@ -151,6 +155,9 @@ hr {
 }
 .appIcon {
 	border-radius: 12.5px;
+}
+.appIcon-sunlight {
+	transform: scale(1.5);
 }
 .chevron {
 	margin-left:auto;
