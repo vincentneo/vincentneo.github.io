@@ -8,6 +8,7 @@ body {
 
 }	
 #sunlight {
+	align-items: center;
 	border-radius: 10px;
 	background-image: linear-gradient(180deg, #2284b1, #037ef2, #001a9c);
 }
@@ -107,6 +108,7 @@ body {
 .item {
 	padding: 10px;
 	display: flex;
+	margin-top: auto;
 }
 
 .item:hover {
@@ -114,6 +116,8 @@ body {
 }
 
 .item img {
+	margin-top: auto;
+	margin-bottom: auto;
 	margin-right: 20px;
 	display: block;
 	width: 50px;
@@ -137,10 +141,44 @@ a {
 	border-radius: 10px;
 	background: lightgray;
 }
+
+
 .itemText p {
 	margin: 0;
 	margin-top: 15px;
 	font-weight: 700;
+}
+
+.itemTextSunlight {
+	margin: 0;
+	margin-top: auto;
+	margin-left: auto;
+	text-align: right;
+	width: 60%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.itemTextSunlight p {
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#itemTextTitle {
+	font-weight: 700;
+	font-size: 2em;
+	padding-right: 5px;
+}
+
+.itemTextSubtitle {
+	font-size: 0.9em;
+	padding-right: 5px;
+}
+
+.imgSunlightAppStore {
+	margin-left: auto;
+	transform: scale(2.5);
+	padding-top: 5px;
+	padding-right: 12.5px;
 }
 
 hr {
@@ -157,7 +195,8 @@ hr {
 	border-radius: 12.5px;
 }
 .appIcon-sunlight {
-	transform: scale(1.5);
+	padding-left: 15px;
+	transform: scale(2.5);
 }
 .chevron {
 	margin-left:auto;
