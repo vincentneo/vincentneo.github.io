@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body {
+	background: #f5f5f5;
+	padding: 0;
+	margin: 0;
+}
+h1 {
+	font-size: 2.8em;
+}
+.subtitle {
+	font-size: 1.2em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+.links {
+	font-size: 18px;
+}
+.links:hover {
+	text-decoration: none;
+}
+.navbar-brand {
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: -1px;
+}
+.bg-gradient {
+	background: linear-gradient(145deg, #ffffff, #e6e6e6);
+	box-shadow: 3px 3px 12px #dbdbdb, -3px -3px 12px #ffffff;
+}
+#bg-blur {
+	background: rgba(255,255,255,0.9);
+	border-bottom: 0.1px solid rgba(0,0,0,0.2);
+}
+@supports ((-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))) {
+  #bg-blur {
+	background: rgba(255,255,255,0.5);
+	padding-top: -1px;
+	backdrop-filter: blur(10px) brightness(150%) saturate(80%) contrast(100%);
+	-webkit-backdrop-filter: blur(15px) brightness(220%) saturate(120%) contrast(40%);
+	border-bottom: 0.1px solid rgba(0,0,0,0.2);
+  }
+}
+.navbar-toggler {
+	padding: 5px;
+}
+.floating-navbar {
+	margin: 10px;
+	border-radius: 5px;
+}
+.max-width-limiter {
+	margin: auto;
+	max-width: 1000px;
+}
+.itemBox {
+	position: relative;
+}
+#avenueBox {
+	background: white;
+}
+#sunlightBox {
+	background: #2284b1;
+}
+#sunlight {
+	width: 350px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#avenue {
+	width: 60%;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#coreGPXIcon {
+	width: 80px;
+}
+
+
+.bg-lightgray {
+	background: lightgray;
+}
+
+.nav-link {
+	font-size: 18px;
+}
+.nav-link {
+	font-weight: 300;
+}
