@@ -1,20 +1,21 @@
 {% assign post = include.post %}
-
-<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} {% if post.disqus_comments %}<i class="fa fa-comment" title="comments on"></i> {% endif %}</span>
-
-<h2 class="bottom-close">
- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-   {%if post.lang == "en" %} <img src="/assets/en.png" alt="ENGLISH">{%endif%} 
-   {{ post.title }} </a>
-</h2>
-{%if post.lang == "es" %}
-      {% assign postes=site.posts | where: "post_id", post.post_id | where: "lang", "en"%} 
-      {% assign readit= "read it in English" %}
-{% else %}
-   {% assign postes=site.posts | where: "post_id", post.post_id | where: "lang", "es"%}
-   {% assign readit= "leerlo en español" %}
-{% endif %}
-      {% if postes[0] %}
-        <small><a class="greyed" href="{{ postes[0].url | prepend: site.baseurl }}" title="{{ postes[0].title }}">{{readit}}</a></small>
-      {% endif %}
-
+<div class="pt-2 pb-2 d-flex flex-sm-row flex-column">
+  {% if post.headerImage %}
+  <div class="pr-3"  style="border-radius: 20px">
+    <div style="overflow: hidden; width: 220px; height: 150px;">
+      <img src="{{ post.headerImage }}" style="border-radius: 20px; object-fit: cover; object-position: center; width: 100%; height: 150px;"/>
+    </div>
+  </div>
+  {% endif %}
+  <div>
+    <div class="font-weight-bold">
+      {% for cat in post.categories %}
+        <span class="badge badge-secondary">{{ cat | upcase }}</span>
+      {% endfor %}
+    </div>
+    <a class="post-link text-dark" href="{{ post.url | prepend: site.baseurl }}">
+    <h2 class="mb-0">{{ post.title }}</h2></a>
+    <p class="p-0 m-0 text-secondary">{{ post.subtitle }}</p>
+    <h5 class="text-info">{{ post.date | date: "%-d %B %Y" }}</h5>
+  </div>
+</div>

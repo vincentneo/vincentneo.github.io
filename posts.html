@@ -2,27 +2,36 @@
 permalink: /posts.html
 layout: default
 ---
-<div>
-    <ul class="post-list">
-  
-        {% assign posts=site.posts %}  
-        {% assign displayed_articles = " " %}
-        {% for post in posts %}
-          {% if post.hide_index != true %}
-            {% comment %}
-              I may not want to display here all posts, so i defined a variable
-              to hide them.
-            {% endcomment %}
-            {% if displayed_articles contains post.post_id %}
-            <!-- skipping repeating {{ post.post_id }} {{ post.id }}-->
-            {% else %}
-            <li>
-              
-              {% capture displayed_articles %}{{ displayed_articles }} {{ post.post_id }}{% endcapture %}
-              {% include post-list-item.html post=post %}
-            </li>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-    </ul>
+<div class="">
+  <div class="itemBox d-flex flex-column pt-5 pb-1 text-center">
+    <div class="mx-auto text-black">
+      <h1 style="font-weight: 600">Articles</h1>
+      <p class="subtitle lead">Read my words, Read my thoughts.</p>
+    </div>
+  </div>
+  <hr/>
+  <div class="col-sm-9 col-md-7 post mx-auto pt-3 pl-sm-2 pr-sm-2 pb-5">
+    {% assign posts=site.posts %}
+    {% assign displayed_articles = " " %}
+    {% for post in posts %}
+      {% if post.hide_index != true %}
+        {% comment %}
+        I may not want to display here all posts, so i defined a variable
+        to hide them.
+        {% endcomment %}
+        {% if displayed_articles contains post.post_id %}
+        <!-- skipping repeating {{ post.post_id }} {{ post.id }}-->
+        {% else %}
+
+
+          {% capture displayed_articles %}{{ displayed_articles }} {{ post.post_id }}{% endcapture %}
+          {% include post-list-item.html post=post %}
+          <hr/>
+          
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+
 </div>
