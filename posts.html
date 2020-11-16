@@ -1,5 +1,4 @@
 ---
-permalink: /posts.html
 layout: default
 ---
 <div class="">
@@ -14,22 +13,8 @@ layout: default
     {% assign posts=site.posts %}
     {% assign displayed_articles = " " %}
     {% for post in posts %}
-      {% if post.hide_index != true %}
-        {% comment %}
-        I may not want to display here all posts, so i defined a variable
-        to hide them.
-        {% endcomment %}
-        {% if displayed_articles contains post.post_id %}
-        <!-- skipping repeating {{ post.post_id }} {{ post.id }}-->
-        {% else %}
-
-
-          {% capture displayed_articles %}{{ displayed_articles }} {{ post.post_id }}{% endcapture %}
-          {% include post-list-item.html post=post %}
-          <hr/>
-          
-        {% endif %}
-      {% endif %}
+      
+      {% include post-list-item.html post=post %}
     {% endfor %}
   </div>
 
