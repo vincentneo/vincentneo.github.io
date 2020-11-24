@@ -98,6 +98,7 @@ Now that we have briefly looked at some of the current options, lets look at wha
 
 ## Images
 {% include article-img.html imagePath="/assets/2020-11-24/buses.png" %}
+{% include article-img.html imagePath="/assets/2020-11-24/buses2.png" %}
 {% include article-img.html imagePath="/assets/2020-11-24/rails.png" %}
 {% include article-img.html imagePath="/assets/2020-11-24/routing101.png" %}
 {% include article-img.html imagePath="/assets/2020-11-24/taxi.png" %}
