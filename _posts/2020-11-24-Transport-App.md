@@ -13,7 +13,7 @@ The idea of the all-roundedness was to make the app less ordinary. Public transp
 
 {% include article-img.html imagePath="/assets/2020-11-24/exploded_view.png" %}
 
-I was inspired by the neumorphism design trends going around the internet. My design is not entirely neumorphism, as it appears to me that, to be truely conforming to the trend, I may have to to abandon too much colours, and instead go with a white/black overalls, with some colour accents. However, heavy use of shadows, light glow effects and beautifully smooth gradients are something that I borrowed from the trend. 
+I was inspired by the neumorphism design trends going around the internet. My design is not entirely neumorphism, as it appears to me that, to be truly conforming to the trend, I may have to abandon too much colours, and instead go with a white/black overalls, with some colour accents. However, heavy use of shadows, light glow effects and beautifully smooth gradients are something that I borrowed from the trend. 
 
 To put it simply, the design concept of the app was, for people like me, people that love to see the use of design elements in an app to represent real world content. People that want to see design trends infused in new ways. It's like the concept of reimagining yet another beautiful weather app. While we need to only see the forecast data most of the time, don't you think the additions of the nice backgrounds and animations make using the app much more... better?
 
@@ -32,60 +32,60 @@ My idea of this transport app, is to mainly focus on where you are at currently,
 Let's look at some of the current apps that we have (look: I respect all of you with your hard work, but this is a requirement set out by my polytechnic to compare my work with your apps. Apologies here, if you ever read this!)
 
 ### SMRTConnect
-#### by SMRT Corporation Ltd
+###### by SMRT Corporation Ltd
 {% include article-img.html imagePath="/assets/2020-11-24/smrt.png" subtitle="Some screenshots of the app" %}
 
 This is a first-party application created by SMRT themselves, to show users MRT and bus arrival times for services operated by SMRT. 
 
-##### Strengths
-- It is quite an all rounder app. It supports journey planning, MRT timings, which is already something that is lacking in some other apps.
+#### Strengths
+- It is quite an all-rounder app. It supports journey planning, MRT timings, which is already something that is lacking in some other apps.
 - First-party app, so it will probably receive newest information, the fastest, such as new MRT lines are bound to be added in this app first.
 - Ad-free.
 
-##### Weakness
+#### Weakness
 - I personally find it crashes a lot. I can have it crash multiple times at different places of the app, randomly.
 - The UI feels slightly dated.
 - Does not tell you the bus type (whether its single, double or bendy types)
 - Random UI design quirks.
 
-{% include article-img.html imagePath="/assets/2020-11-24/smrt-quirk.png" subtitle="Unsure what the blue dots are suppose to mean?" %}
+{% include article-img.html imagePath="/assets/2020-11-24/smrt-quirk.png" subtitle="Unsure what the blue dots are supposed to mean?" %}
 
-##### Opportinities
+##### Opportunities
 - Aim for app stability
 - Better design
 - Include bus arrival times of other public transport companies like SBS Transit or Go-Ahead
 
-##### Threat
+#### Threat
 - A large corporation has the capability to update their app at a faster and better rate should they allocate the budget to do so.
 
 ### Singabus
-#### by Cotton.sg Pte. Ltd.
+###### by Cotton.sg Pte. Ltd.
 {% include article-img.html imagePath="/assets/2020-11-24/singabus.png" subtitle="Some screenshots of the app" %}
 
 This a simple, no-frills bus arrival timings app created by a third-party developer. It is relatively popular, as its free and relative stability attracted many users.
 
-##### Strengths
+#### Strengths
 - Simple, easy to use.
 - Rather quick at getting latest timings.
 - Map UI rather useful in quickly choosing nearby bus stops.
 - Contains arrival data for all public bus operators.
 - Tells you the size of the next bus, unlike SMRTConnect.
 
-##### Weakness
+#### Weakness
 - No MRT timing support. 
 - Sometimes can get confused over the UI.
 - Does not support route planning features.
 
-##### Opportunities
+#### Opportunities
 - Include MRT timings and route planning features.
 - Try to reduce confusion.
 
-##### Threat
+#### Threat
 - Simplicity is also something that many would prefer, and some with rather have a simple and lightweight app, then one with fanciful colours and design.
 
 ## My App Concept functionalities
 
-Now that we have briefly looked at some of the current options, lets look at what I am conceptualizing. 
+Now that we have briefly looked at some of the current options, let’s look at what I am conceptualizing. 
 
 #### Functions
 - MRT/LRT Arrival Timings
