@@ -19,20 +19,51 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<style>
+			.app {
+				margin-left: -8px;
+			}
+		</style>
 	</head>
 
 	<body class="">
 		<nav class="navbar navbar-expand-lg navbar-light sticky-top" id="bg-blur">
-			<div class="d-flex" style="padding-top: 1.5px; padding-bottom: 1.5px">
-				<a class="navbar-brand px-2" href="index.html"><img src="favicon.png" style="width:30px; margin-right: 5px; margin-top: -3px;">Vincent Neo</a>
-				<div style="border-left: 1px solid black; margin-left: -15px; margin-top: 7.5px; margin-bottom: 7.5px;"></div>
-				<div class="navbar-brand pl-2" style="font-weight: 400;">Privacy</div>
+			<div class='container'>
+				<div class="d-flex">
+					<a class="" href="index.html" style="text-decoration: none;">
+						<span class="navbar-brand px-2">
+							<img alt="img" src="favicon.png"
+								style="width:30px; margin-right: 5px; margin-top: -3px;">Vincent Neo
+						</span>
+					</a>
+					<div
+						style="border-left: 1px solid darkslateblue; margin-left: -15px; margin-top: 7.5px; margin-bottom: 7.5px;">
+					</div>
+					<a class="" href="#" style="text-decoration: none;">
+						<div class="navbar-brand pl-2" style="font-weight: 400; color: darkslateblue;">Privacy</div>
+					</a>
+				</div>
+	
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="fa fa-bars"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav justify-content-end ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="apps.html">Apps</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="posts.html">Blogs</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 		
 		<div class="container">
 			<div class="p-3">
-				<img src="images/SunlightIcon.png" class="mt-4 mb-2" style="width: 60px; border-radius: 15px;" alt="sunlight app icon"/>
+				<img src="images/AppIcons/Sunlight.png" class="mt-4 mb-2 app" style="width: 120px" alt="sunlight app icon"/>
 				<h2>Sunlight - Rise &amp; Set Times</h2>
 				<h6>Location data is optional. Users may choose to grant location data use, where it will only be used in the app, for the on-device calculations of relative time of day (including, but not limited to: sunrise, sunset, moonrise, moonset times) in that particular region.</h6>
 				<h6>Location data will not be used for any other purposes.</h6>
@@ -40,7 +71,7 @@
 				<h6>Sunlight does not track your location, your personal data, or usage data, in the widget and in the app.</h6>
 			</div>
 			<div class="p-3">
-				<img src="images/Avenue-Title.png" class="mt-4 mb-2" style="width: 60px; border-radius: 15px;" alt="avenue app icon"/>
+				<img src="images/AppIcons/Avenue.png" class="mt-4 mb-2 app" style="width: 120px" alt="avenue app icon"/>
 				<h2>Avenue GPX Tracker</h2>
 				<h6>Avenue GPX Viewer does not track your personal data, including your usage of the app.</h6>
 				<h6>Data processing, such as the loading of your file, is done on device, and internet connection is solely used to load or cache map data.</h6>
