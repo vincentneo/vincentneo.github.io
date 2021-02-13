@@ -167,4 +167,4 @@ We hope that our ideas will inspire others to build accessible software for ever
 
 - Qing, A. (2020, November 20). [Woman attacked by wild boar while exercising in Sungei Api Api Park.](https://www.straitstimes.com/singapore/woman-attacked-by-wild-boar-while-exercising-in-sungei-api-api-park) The Straits Times.
 
-- BBC News. (2015, November 18). [How dangerous are white canes?](https://www.bbc.com/news/disability-34855313) BBC News.
+- BBC News. (2015, November 18). [How dangerous are white canes?](https://www.bbc.com/news/disability-34855311) BBC News.
