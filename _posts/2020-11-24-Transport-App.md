@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "App Concept: Designed focused all-rounder transport app companion"
+title:  "App Concept: Design-focused all-rounder transport app companion"
 headerImage: "assets/2020-11-24/transportConcept.png"
 subtitle: "Bus/transport apps have been a must have for us, public transport commuters in Singapore. What if, one takes the idea, and makes it... more aesthetically pleasing?"
 date: 2020-11-24 21:30:00 +0800
@@ -50,7 +50,7 @@ This is a first-party application created by SMRT themselves, to show users MRT 
 
 {% include article-img.html imagePath="/assets/2020-11-24/smrt-quirk.png" subtitle="Unsure what the blue dots are supposed to mean?" %}
 
-##### Opportunities
+#### Opportunities
 - Aim for app stability
 - Better design
 - Include bus arrival times of other public transport companies like SBS Transit or Go-Ahead
