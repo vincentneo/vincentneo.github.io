@@ -34,9 +34,9 @@ h1 {
 }
 @supports ((-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))) {
   #bg-blur {
-	background: rgba(255,255,255,0.5);
+	background: rgba(255,255,255,0.6);
 	padding-top: -1px;
-	backdrop-filter: blur(10px) brightness(150%) saturate(80%) contrast(100%);
+	backdrop-filter: blur(10px) brightness(100%) saturate(80%) contrast(100%);
 	-webkit-backdrop-filter: blur(15px) brightness(220%) saturate(120%) contrast(40%);
 	border-bottom: 0.1px solid rgba(0,0,0,0.2);
   }
