@@ -56,8 +56,8 @@ h1 {
 	position: relative;
 }
 #avenueBox {
-	background: rgba(7,14,31,1) 100%;
-	background: radial-gradient(circle, rgba(14,14,93,1) 24%, rgba(7,14,31,1) 100%);
+	background: rgb(99,209,190);
+	background: linear-gradient(180deg, rgba(99,209,190,1) 0%, rgba(158,231,228,1) 26%, rgba(196,244,209,1) 64%, rgba(129,228,197,1) 100%);
 }
 #sunlightBox {
 	background: #2284b1;
@@ -96,8 +96,8 @@ h1 {
 }
 
 #nameJumbotron {
-	background: rgb(255,245,171);
-	background: linear-gradient(60deg, rgba(255,245,171,1) 0%, rgba(215,255,191,1) 100%);
+	background: rgb(255,216,216);
+	background: linear-gradient(0deg, rgba(255,216,216,1) 0%, rgba(255,239,211,1) 54%, rgba(255,217,144,1) 100%);
 }
 
 #sunlight {
@@ -123,4 +123,8 @@ h1 {
 .nav-link {
 	font-size: 18px;
 	font-kerning: -20px;
+}
+
+a { 
+	color:#5e4c8c;
 }
