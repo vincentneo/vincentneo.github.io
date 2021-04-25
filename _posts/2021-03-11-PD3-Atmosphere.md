@@ -81,7 +81,7 @@ JSON file? So, what exactly in a JSON file does it want? The previous template t
 
 I went on researching about the JSON file requirement, and eventually found how much I did not know about machine learning 🙃. 
 
-How did the algorithm know which part of the image that it's 'looking' at, is said object? The JSON is suppose to tell that, and I can't believe I didn't think of it. Next question, for me, is how do I declare the x and y in the JSON file to properly annotate that information? I needed an app. 
+How did the algorithm know which part of the image that it's 'looking' at, is said object? The JSON is supposed to tell that, and I can't believe I didn't think of it. Next question, for me, is how do I declare the x and y in the JSON file to properly annotate that information? I needed an app. 
 
 Understandably, there didn't appear to be a free option, which I expected, due to the potential of how much such an app could have gotten in sales, as there would have been individuals like me. After reading up, I used [RectLabel](https://apps.apple.com/sg/app/rectlabel-for-object-detection/id1210181730?mt=12), which costs $3.98 per month, with the first month being free.
 
@@ -94,7 +94,7 @@ It wasn't that hard, as the end goal was to simply draw bounding boxes of what I
 If only RectLabel had a 'Sort Image by last added date', things would be even better, since my newly added images might not be one that is recently taken. But oh well, it works well enough for me to continue on.
 
 ## The actual training
-{% include article-img.html imagePath="/assets/2021-03-11/screenshots/createml.training.png" subtitle="Screenshotted this before I updated my Mac... Pardon the UI discrepencies 🙂"%}
+{% include article-img.html imagePath="/assets/2021-03-11/screenshots/createml.training.png" subtitle="Screenshotted this before I updated my Mac... Pardon the UI discrepancies 🙂"%}
 
 Inserted the new training data set, with the annotations JSON file, and I was ready to train an AI model again. I get to choose the algorithm to use for the training, and I chose Full Network/YOLOv2 in Create ML. I will talk about why I chose that instead of the other option, later in this article.
 
@@ -107,7 +107,7 @@ Thus far, looking good... Clouds are properly detected as Clouds.
 {% include article-img.html imagePath="/assets/2021-03-11/screenshots/tulipSample2.png"%}
 Great! Tulips are finally not clouds. 
 
-With that, I grew faith in it, as I tested it againsts more images. Eventually, I retrained the models with 8 other data sets, each, building on top of the previous data set. 
+With that, I grew faith in it, as I tested it against more images. Eventually, I retrained the models with 8 other data sets, each, building on top of the previous data set. 
 
 {% include article-img-float.html float="right" imagePath="/assets/2021-03-11/needMoreRAM.jpg" %}
 The last data set that I trained with, consisted of 317 images altogether, and took me almost 4 hours to complete.
@@ -121,11 +121,11 @@ Things were also fine before I updated to macOS Big Sur. I guess only Apple engi
 Early models (trained in macOS Catalina) had the size of 64MB, but the final model (trained in macOS Big Sur) had the size of 32.1MB, despite using the same algorithm, albeit with 4x longer time than the closest previous model.
 
 #### Why YOLOv2? 
-YOLOv2 is outdated. I know. But in Create ML, theres only two options, and at this point, I am not interested in going to a non code-less solution for training.
+YOLOv2 is outdated. I know. But in Create ML, there's only two options, and at this point, I am not interested in going to a non code-less solution for training.
 {% include article-img-float.html float="right" imagePath="/assets/2021-03-11/screenshots/algorithms.png" %}
 The other option is Apple's new Transfer Learning algorithm, only available in the newer OSes. 
 
-I tried training using the Transfer Learning method, and while it looked promising while training, the actual results were totally horrible. Everything to it, was a cloud, which resulted in artifically low loss numbers, while training, almost leading me to believe it would be awesome. I am guessing that the model provided for, internally, is overly general purposed?
+I tried training using the Transfer Learning method, and while it looked promising while training, the actual results were totally horrible. Everything to it, was a cloud, which resulted in artificially low loss numbers, while training, almost leading me to believe it would be awesome. I am guessing that the model provided for, internally, is overly general purposed?
 
 {% include article-img.html imagePath="/assets/2021-03-11/screenshots/tulipSample3.png"%}
 Oh and the tulip is not just a cloud, but rather 3 clouds of different genera, at least, according to the lousy Transfer Learning model that I had trained. 
@@ -138,7 +138,7 @@ I didn't spend too much time prototyping, but I did briefly design an app protot
 The final app doesn't share too much resemblance to its prototype, as its mostly only the structure that's kept, as I thought the prototype design's top bar might be overcrowded, if used in the actual app.
 
 ## App Development
-As I have never worked on an app that utilizes Artifical Intelligence before, I needed to reference a lot.
+As I have never worked on an app that utilizes Artificial Intelligence before, I needed to reference a lot.
 
 In this case, I referred extensively to Apple's [Recognizing Objects in Live Capture](https://developer.apple.com/documentation/vision/recognizing_objects_in_live_capture?language=objc) sample codes, in order to understand how to use the Vision and AVKit APIs.
 
@@ -157,13 +157,13 @@ All processing is done offline, meaning nothing gets out of the device. This inc
 
 Camera footage can often be privacy sensitive, and from the start of making this app, I made it a point, to make privacy a key point to the experience of using this app.
 
-There are 3 buttons on the bottom. The left button allows for viewing photos and information, the center is a shutter button for taking photos, and the right button allows for the user to change cameras, if available on device.
+There are 3 buttons on the bottom. The left button allows for viewing photos and information, the centre button is a shutter button for taking photos, and the right button allows for the user to change cameras, if available on device.
 
 {% include article-img.html imagePath="/assets/2021-03-11/realExample.png" subtitle="Real world tests" %}
 
 When the device is rotated, the UI changes to fit for the orientation. More often than not, a slightly different landscape UI is better than forcing a portrait UI to work in landscape, at least that's what I think 😄.
 
-### Infomation view
+### Information view
 {% include article-img.html imagePath="/assets/2021-03-11/Info.png" %}
 
 The information view is currently quite rudimentary, containing a few bits of technical information for the user. It's like, some quick reference data for cloud enthusiasts, that needs to know what code a genus of cloud falls under.
@@ -181,7 +181,7 @@ On pressing of an image, users will be shown with an enlarged, zoomable image fo
 
 Users may also slide left or right, to view all other images stored on device, and is not restricted to the genus type, as I believe that this will allow for users to have more convenience when viewing images, compared to having the need of exiting the view, to select images from different genus categories. 
 
-Exporting or deleting individual images can also be proceeded here. Cloud classification can also be edited, where invokation of said feature, can be done via clicking on the pencil button. 
+Exporting or deleting individual images can also be proceeded here. Cloud classification can also be edited, where invocation of said feature, can be done via clicking on the pencil button. 
 
 As updates roll in progressively, I am aiming to let users store more information, within for each of their cloud image, so that they can classify each cloud type, better.
 
@@ -231,7 +231,7 @@ The implementation of the AI identification is not realtime, and requires captur
 
 Coton is an app that contains tons of images of different types of clouds. It also contains interactive pages of content, for users to know more about clouds, including cloud formation, etc.
 
-The app seems to be poorly optimized for newer iPhone models, such as the one that I am using, which has the newer notch design, with curved screen corners, that debuted in the iPhone X. Certain parts of the User Interface (UI) is noticably clipped by the notch, and cannot be viewed as probably intended. App hasn't been updated since Feb 2019. 
+The app seems to be poorly optimized for newer iPhone models, such as the one that I am using, which has the newer notch design, with curved screen corners, that debuted in the iPhone X. Certain parts of the User Interface (UI) is noticeably clipped by the notch, and cannot be viewed as probably intended. App hasn't been updated since Feb 2019. 
 
 #### Strengths
 - No internet connection needed.
@@ -243,7 +243,7 @@ The app seems to be poorly optimized for newer iPhone models, such as the one th
 - UI scaling on modern devices can be better.
 - Upfront cost of $2.98 (SGD)
 - Random popups to tell people to like its Facebook page is a little annoying.
-- Last updated was years ago.
+- Last updated years ago.
 
 #### Opportunities
 - Use AI for cloud identification.
