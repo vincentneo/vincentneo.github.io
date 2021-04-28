@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-<div class="">
+<script src="{{ site.baseurl }}/js/badgeButtonHandler.js"></script>
+<title>Vincent Neo | Blog</title>
+<div>
   <div class="itemBox d-flex flex-column pt-5 pb-1 text-center">
     <div class="mx-auto text-black">
       <h1 style="font-weight: 600">Articles</h1>
@@ -9,7 +11,20 @@ layout: default
     </div>
   </div>
   <hr/>
-  <div class="col-sm-9 col-md-7 post mx-auto pt-3 pl-sm-2 pr-sm-2 pb-5">
+  <div class="col-sm-9 col-md-7 post mx-auto pt-2 pl-sm-2 pr-sm-2 pb-5">
+    <div id="filter-toolbar" style="display: none;">
+      <div class="row">
+        <div class="col-6" style="color: darkslateblue;">
+          <button id="clearFilterButton" class="freeButtons">
+            <h5><i class="fa fa-chevron-left"></i> Clear Filter</h5>
+          </button>
+        </div>
+        <div class="col-6 text-right">
+            <p class="m-0 font-weight-bold" style="font-size: 80%; line-height: 40%; letter-spacing: -1px; opacity: 80%;">Showing articles tagged with&colon;</p>
+            <span class="m-0 badge badge-secondary" style="padding-top: -10px;" id="selectedBadgeDisplay">ALL</span>
+        </div>
+      </div>
+    </div>
     {% assign posts=site.posts %}
     {% assign displayed_articles = " " %}
     {% for post in posts %}
