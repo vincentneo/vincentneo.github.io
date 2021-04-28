@@ -4,7 +4,7 @@ title:  "App Concept: How can we help our visually impaired friends?"
 headerImage: "assets/2021-02-13/graphics/header.png"
 subtitle: "Pedestrian paths can be dangerous for anyone – more so, for the visually impaired. Here’s our idea of changing that."
 date: 2021-02-13 19:35:00 +0800
-categories: ["rp", "app concept"]
+categories: ["rp", "app concept", "AI", "pd"]
 ---
 
 Walking on pedestrian paths is something everyone needs to do, for basic commute. Pedestrian paths are a lot safer than walking on grass plains or even on the roads. However, all kinds of dangers can still lie within the walking boundaries of the paths.

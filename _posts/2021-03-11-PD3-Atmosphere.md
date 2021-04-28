@@ -4,7 +4,7 @@ title:  "Atmosphere Development Log"
 headerImage: "assets/2021-03-11/graphics/header3-min.png"
 subtitle: "Bored? Try identifying a cloud!"
 date: 2021-03-11 08:00:00 +0800
-categories: ["rp", "atmosphere", "app"]
+categories: ["rp", "atmosphere", "app", "AI", "pd"]
 ---
 
 Fluffy clouds are everywhere. They come in many different shapes and sizes, yet, not many of us know that they are actually characterised respectively according to their sizes.

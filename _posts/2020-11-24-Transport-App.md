@@ -4,7 +4,7 @@ title:  "App Concept: Design-focused all-rounder transport app companion"
 headerImage: "assets/2020-11-24/transportConcept.png"
 subtitle: "Bus/transport apps have been a must have for us, public transport commuters in Singapore. What if, one takes the idea, and makes it... more aesthetically pleasing?"
 date: 2020-11-24 21:30:00 +0800
-categories: ["rp", "app concept"]
+categories: ["rp", "app concept", "transport", "pd"]
 ---
 
 Personally, I love great design. For even an everyday app, I would think of how one could design it in a different way, and this is something that I would like to do in this app concept. Other than design, I tried to add a few more functionalities, so as to enable it as a more "all-rounder" transport app, than just a bus app. This app embodies a few things: you get bus timings and route information, MRT/LRT timings and route information, taxi and private hire price comparisons, along with routing suggestions as an idea to bring users to their destination, through the best suitable public transport method, either by speed, price, or a combination of the two.
