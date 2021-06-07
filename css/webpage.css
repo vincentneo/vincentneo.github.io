@@ -64,6 +64,11 @@ h1 {
 	/*background: linear-gradient(180deg, rgba(60,91,131,1) 0%, rgba(106,218,255,1) 100%);*/
 	background: radial-gradient(ellipse at bottom, rgba(255,203,0,1) 0%, rgba(255,182,39,1) 5%, rgba(79,188,194,1) 35%, rgba(15,80,159,1) 100%);
 }
+
+#environmentBox {
+	background: rgb(213,255,253);
+	background: linear-gradient(180deg, rgba(213,255,253,1) 0%, rgba(134,204,255,1) 100%); 
+}
 /*
 #atmosphereBox {
 	background: rgb(202,248,255);
