@@ -55,6 +55,12 @@ h1 {
 .itemBox {
 	position: relative;
 }
+
+#iconicBox {
+	background: rgb(192,162,131);
+	background: linear-gradient(180deg, rgba(192,162,131,1) 0%, rgba(241,219,195,1) 50%, rgba(132,85,64,1) 100%);
+}
+
 #avenueBox {
 	background: rgb(99,209,190);
 	background: linear-gradient(180deg, rgba(99,209,190,1) 0%, rgba(158,231,228,1) 26%, rgba(196,244,209,1) 64%, rgba(129,228,197,1) 100%);
@@ -106,6 +112,12 @@ h1 {
 }
 
 #sunlight {
+	width: 350px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#iconic {
 	width: 350px;
 	padding-left: 10px;
 	padding-right: 10px;
