@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.28fc70e1.css",
-    "main.js": "/static/js/main.f9061d52.js",
+    "main.js": "/static/js/main.2f482671.js",
     "static/js/529.8b18bb44.chunk.js": "/static/js/529.8b18bb44.chunk.js",
     "static/media/PD4.png": "/static/media/PD4.713a5bea4c38106bc7c8.png",
     "static/media/rectlabel.png": "/static/media/rectlabel.d03c0d36be38de2f002b.png",
@@ -98,6 +98,7 @@
     "static/media/tech360.jpg": "/static/media/tech360.16e25f7928b449366b53.jpg",
     "static/media/darkoaudio.jpg": "/static/media/darkoaudio.e389b7b452d343be208a.jpg",
     "static/media/favicon.png": "/static/media/favicon.25abdf5b146ef6908f17.png",
+    "static/media/appadvice.jpg": "/static/media/appadvice.42a9a78ae843e9c3b1c5.jpg",
     "static/media/geekculture.png": "/static/media/geekculture.7f3ab73aaac0424caa73.png",
     "static/media/app-store-mac-black.svg": "/static/media/app-store-mac-black.1d39e8dace6b366637c5a86a05efe854.svg",
     "static/media/hwz.png": "/static/media/hwz.7620e942af8116709537.png",
@@ -108,11 +109,11 @@
     "static/media/swift.svg": "/static/media/swift.19e9db4678133ca779780776bc5b4294.svg",
     "index.html": "/index.html",
     "main.28fc70e1.css.map": "/static/css/main.28fc70e1.css.map",
-    "main.f9061d52.js.map": "/static/js/main.f9061d52.js.map",
+    "main.2f482671.js.map": "/static/js/main.2f482671.js.map",
     "529.8b18bb44.chunk.js.map": "/static/js/529.8b18bb44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28fc70e1.css",
-    "static/js/main.f9061d52.js"
+    "static/js/main.2f482671.js"
   ]
 }
