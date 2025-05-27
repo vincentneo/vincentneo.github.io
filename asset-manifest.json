@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8b01689.css",
-    "main.js": "/static/js/main.3f0b9d54.js",
+    "main.css": "/static/css/main.b785d1a7.css",
+    "main.js": "/static/js/main.60b0cde1.js",
     "static/js/529.8b18bb44.chunk.js": "/static/js/529.8b18bb44.chunk.js",
     "static/media/PD4.png": "/static/media/PD4.713a5bea4c38106bc7c8.png",
     "static/media/rectlabel.png": "/static/media/rectlabel.d03c0d36be38de2f002b.png",
@@ -57,9 +57,9 @@
     "static/media/3apps.png": "/static/media/3apps.f6008c3c988a1d76b897.png",
     "static/media/bar.png": "/static/media/bar.78592cad52b64592b8c5.png",
     "static/media/Iconic.png": "/static/media/Iconic.eff6f773e918007ac08e.png",
+    "static/media/DefaultSMS.png": "/static/media/DefaultSMS.b6f34cf7bfe7bc3fba19.png",
     "static/media/Info.png": "/static/media/Info.37da6ea70570a55313d2.png",
     "static/media/sunlight-next.png": "/static/media/sunlight-next.19403d87ccab746ba5fe.png",
-    "static/media/DefaultSMS.png": "/static/media/DefaultSMS.b6f34cf7bfe7bc3fba19.png",
     "static/media/UIDeviceComplete.png": "/static/media/UIDeviceComplete.2077ddcd6cabc7fd88d2.png",
     "static/media/smrt.png": "/static/media/smrt.59127a796717d0f08e33.png",
     "static/media/buses2.png": "/static/media/buses2.a15a2af70dd45c1637f4.png",
@@ -103,6 +103,7 @@
     "static/media/appadvice.jpg": "/static/media/appadvice.42a9a78ae843e9c3b1c5.jpg",
     "static/media/macstories.png": "/static/media/macstories.2b26bd3bafd96fd3b4cc.png",
     "static/media/geekculture.png": "/static/media/geekculture.7f3ab73aaac0424caa73.png",
+    "static/media/lifehacker.png": "/static/media/lifehacker.3242695749d3d8b126f2.png",
     "static/media/app-store-mac-black.svg": "/static/media/app-store-mac-black.1d39e8dace6b366637c5a86a05efe854.svg",
     "static/media/hwz.png": "/static/media/hwz.7620e942af8116709537.png",
     "static/media/app-store-black.svg": "/static/media/app-store-black.8c4986ee4828b47d16f5cd694ef065f2.svg",
@@ -111,12 +112,12 @@
     "static/media/MailIcon1.1.svg": "/static/media/MailIcon1.1.69a34e2f9d72d0ee06b618803966ff18.svg",
     "static/media/swift.svg": "/static/media/swift.19e9db4678133ca779780776bc5b4294.svg",
     "index.html": "/index.html",
-    "main.a8b01689.css.map": "/static/css/main.a8b01689.css.map",
-    "main.3f0b9d54.js.map": "/static/js/main.3f0b9d54.js.map",
+    "main.b785d1a7.css.map": "/static/css/main.b785d1a7.css.map",
+    "main.60b0cde1.js.map": "/static/js/main.60b0cde1.js.map",
     "529.8b18bb44.chunk.js.map": "/static/js/529.8b18bb44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8b01689.css",
-    "static/js/main.3f0b9d54.js"
+    "static/css/main.b785d1a7.css",
+    "static/js/main.60b0cde1.js"
   ]
 }
