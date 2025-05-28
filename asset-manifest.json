@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b785d1a7.css",
-    "main.js": "/static/js/main.60b0cde1.js",
-    "static/js/529.8b18bb44.chunk.js": "/static/js/529.8b18bb44.chunk.js",
+    "main.css": "/static/css/main.51220116.css",
+    "main.js": "/static/js/main.3674fa3f.js",
+    "static/js/529.c3fafde3.chunk.js": "/static/js/529.c3fafde3.chunk.js",
     "static/media/PD4.png": "/static/media/PD4.713a5bea4c38106bc7c8.png",
     "static/media/rectlabel.png": "/static/media/rectlabel.d03c0d36be38de2f002b.png",
     "static/media/menu.png": "/static/media/menu.a4d4e338bf0405a092fc.png",
@@ -33,7 +33,6 @@
     "static/media/Images.png": "/static/media/Images.20208b1af0a9fcd66926.png",
     "static/media/weathersg.png": "/static/media/weathersg.e2430cacd11dddbfe8c4.png",
     "static/media/forecasts.png": "/static/media/forecasts.d2cb67896670d9dc7bf5.png",
-    "static/media/ColorConvert2.png": "/static/media/ColorConvert2.8d4c0cf295677196d061.png",
     "static/media/high_threat.png": "/static/media/high_threat.14731ac6a49d5fa22905.png",
     "static/media/Cloud-A-Day1.png": "/static/media/Cloud-A-Day1.bd6f55848d20cb185698.png",
     "static/media/kfexample2.png": "/static/media/kfexample2.4ea1c5b926065d11a4f9.png",
@@ -43,6 +42,7 @@
     "static/media/header3-min.png": "/static/media/header3-min.3ff80716df592d2e0560.png",
     "static/media/exploded_view.png": "/static/media/exploded_view.6c0075dda8d258fac83b.png",
     "static/media/sunlight-app-future.png": "/static/media/sunlight-app-future.98d8158fb4a4c507e37c.png",
+    "static/media/ColorConvert3.png": "/static/media/ColorConvert3.2bec535b403001237aba.png",
     "static/media/TrainIsland.png": "/static/media/TrainIsland.6ebc993887f59e4ed7f0.png",
     "static/media/Pigeon.png": "/static/media/Pigeon.1c6134cbabb1ffd05533.png",
     "static/media/Iconic2.png": "/static/media/Iconic2.789bf0094db930515682.png",
@@ -112,12 +112,12 @@
     "static/media/MailIcon1.1.svg": "/static/media/MailIcon1.1.69a34e2f9d72d0ee06b618803966ff18.svg",
     "static/media/swift.svg": "/static/media/swift.19e9db4678133ca779780776bc5b4294.svg",
     "index.html": "/index.html",
-    "main.b785d1a7.css.map": "/static/css/main.b785d1a7.css.map",
-    "main.60b0cde1.js.map": "/static/js/main.60b0cde1.js.map",
-    "529.8b18bb44.chunk.js.map": "/static/js/529.8b18bb44.chunk.js.map"
+    "main.51220116.css.map": "/static/css/main.51220116.css.map",
+    "main.3674fa3f.js.map": "/static/js/main.3674fa3f.js.map",
+    "529.c3fafde3.chunk.js.map": "/static/js/529.c3fafde3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b785d1a7.css",
-    "static/js/main.60b0cde1.js"
+    "static/css/main.51220116.css",
+    "static/js/main.3674fa3f.js"
   ]
 }
