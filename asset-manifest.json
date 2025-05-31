@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.51220116.css",
-    "main.js": "/static/js/main.3674fa3f.js",
+    "main.js": "/static/js/main.4bcef9a9.js",
     "static/js/529.c3fafde3.chunk.js": "/static/js/529.c3fafde3.chunk.js",
     "static/media/PD4.png": "/static/media/PD4.713a5bea4c38106bc7c8.png",
     "static/media/rectlabel.png": "/static/media/rectlabel.d03c0d36be38de2f002b.png",
@@ -91,17 +91,16 @@
     "static/media/lidar.png": "/static/media/lidar.fcc34f649942c16cc7d6.png",
     "static/media/smrt-quirk.png": "/static/media/smrt-quirk.809f5a289b64f44edc7e.png",
     "static/media/catAccident.png": "/static/media/catAccident.41ac3e333dcabd5ca8b4.png",
+    "static/media/tech360.png": "/static/media/tech360.9c3f8ee48b52f4ee654e.png",
     "static/media/GPXTracker.png": "/static/media/GPXTracker.6d09ba1b1b44f7ea10cc.png",
     "static/media/rectlabel.sort.png": "/static/media/rectlabel.sort.376e762890a09482e621.png",
     "static/media/header.png": "/static/media/header.beccb14c42ec7b8422fd.png",
     "static/media/algorithms.png": "/static/media/algorithms.9f230dce6b54a1699180.png",
     "static/media/asiaone.png": "/static/media/asiaone.579c8e8469c11593da5a.png",
     "static/media/json.needed.png": "/static/media/json.needed.7dd592680780b7709da9.png",
-    "static/media/tech360.jpg": "/static/media/tech360.16e25f7928b449366b53.jpg",
     "static/media/darkoaudio.jpg": "/static/media/darkoaudio.e389b7b452d343be208a.jpg",
     "static/media/favicon.png": "/static/media/favicon.25abdf5b146ef6908f17.png",
     "static/media/appadvice.jpg": "/static/media/appadvice.42a9a78ae843e9c3b1c5.jpg",
-    "static/media/macstories.png": "/static/media/macstories.2b26bd3bafd96fd3b4cc.png",
     "static/media/geekculture.png": "/static/media/geekculture.7f3ab73aaac0424caa73.png",
     "static/media/lifehacker.png": "/static/media/lifehacker.3242695749d3d8b126f2.png",
     "static/media/app-store-mac-black.svg": "/static/media/app-store-mac-black.1d39e8dace6b366637c5a86a05efe854.svg",
@@ -113,11 +112,11 @@
     "static/media/swift.svg": "/static/media/swift.19e9db4678133ca779780776bc5b4294.svg",
     "index.html": "/index.html",
     "main.51220116.css.map": "/static/css/main.51220116.css.map",
-    "main.3674fa3f.js.map": "/static/js/main.3674fa3f.js.map",
+    "main.4bcef9a9.js.map": "/static/js/main.4bcef9a9.js.map",
     "529.c3fafde3.chunk.js.map": "/static/js/529.c3fafde3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51220116.css",
-    "static/js/main.3674fa3f.js"
+    "static/js/main.4bcef9a9.js"
   ]
 }
