@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e84c194e.css",
-    "main.js": "/static/js/main.86d540d7.js",
+    "main.js": "/static/js/main.eb08d615.js",
     "static/js/529.c3fafde3.chunk.js": "/static/js/529.c3fafde3.chunk.js",
     "static/media/PD4.png": "/static/media/PD4.713a5bea4c38106bc7c8.png",
     "static/media/rectlabel.png": "/static/media/rectlabel.d03c0d36be38de2f002b.png",
@@ -57,6 +57,7 @@
     "static/media/3apps.png": "/static/media/3apps.f6008c3c988a1d76b897.png",
     "static/media/bar.png": "/static/media/bar.78592cad52b64592b8c5.png",
     "static/media/Iconic.png": "/static/media/Iconic.eff6f773e918007ac08e.png",
+    "static/media/BusWatch.png": "/static/media/BusWatch.58c29569908531431135.png",
     "static/media/DefaultSMS.png": "/static/media/DefaultSMS.b6f34cf7bfe7bc3fba19.png",
     "static/media/Info.png": "/static/media/Info.37da6ea70570a55313d2.png",
     "static/media/sunlight-next.png": "/static/media/sunlight-next.19403d87ccab746ba5fe.png",
@@ -112,11 +113,11 @@
     "static/media/swift.svg": "/static/media/swift.19e9db4678133ca779780776bc5b4294.svg",
     "index.html": "/index.html",
     "main.e84c194e.css.map": "/static/css/main.e84c194e.css.map",
-    "main.86d540d7.js.map": "/static/js/main.86d540d7.js.map",
+    "main.eb08d615.js.map": "/static/js/main.eb08d615.js.map",
     "529.c3fafde3.chunk.js.map": "/static/js/529.c3fafde3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e84c194e.css",
-    "static/js/main.86d540d7.js"
+    "static/js/main.eb08d615.js"
   ]
 }
